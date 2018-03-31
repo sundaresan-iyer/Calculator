@@ -20,6 +20,13 @@
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
+				<configuration>
+					<formats>
+						<format>html</format>
+						<format>xml</format>
+						<format>csv</format>
+					</formats>
+				</configuration>
 				<version>0.8.1</version>
 				<executions>
 					<execution>
